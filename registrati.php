@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Registrati</title>
-  <?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/content.php");?>
+  <?php include ("include/content.php");?>
 </head>
 
 <body>
-  <?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/header.php");?>
+  <?php include ("include/header.php");?>
 
 
  <h3 class="form-horizontal" style="padding-left: 12px" > REGISTRATI ALLA PIATTAFORMA COMPILANDO IL SEGUENTE FORM:</h3>

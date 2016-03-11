@@ -7,8 +7,8 @@
     </head>
 
 	<body>
-		<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/header.php");?>
-        	<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/content.php");?>
+		<?php include ("include/header.php");?>
+        	<?php include ("include/content.php");?>
        
             <form class="form-horizontal" method="post">
               <h3>NON RICORDI LA TUA PASSWORD?<br>

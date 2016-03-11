@@ -4,12 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Home</title>
-<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/content.php");?>
+<?php include ("include/content.php");?>
 
 </head>
 
 <body>
-	<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/header4.php");?>
+	<?php include ("include/header1.php");?>
 
   
         <form class="form-horizontal">
