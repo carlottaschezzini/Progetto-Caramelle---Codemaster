@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+.form-horizontal {
+	width: 60%;
+	margin: 0 auto;
+	
+}
+.form-inline {
+	width: 60%;
+	margin: 2% auto;
+}
+	
+img {
+	margin-left:4%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+#colore_header {
+	background-color:black;
+}
+.loggato {
+	background-color:#55C4B1;
+}
+.non-loggato{
+	background-color:white;
+}
+.red {
+	background-color:#E33513;
+}
+.ui-widget-content {
+	background-color: #676768;
+}
+.ui-datepicker-header {
+	background-color: red;
+}
+.ui-icon-circle-triangle-e {
+	margin-left:70%;
+}
+.ui-icon-circle-triangle-w {
+	margin-left:10%;
+}
+.ui-datepicker-month {
+	margin-left:41%;
+}
+.seconda_casella {
+	margin-left:50%;
+}
+
