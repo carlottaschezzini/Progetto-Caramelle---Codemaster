@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
     <head>
@@ -7,9 +8,9 @@
     </head>
 
 	<body>
-		<?php include ("/Users/lotti_/Desktop/CODEMASTER/1SETTIMANA/SITOLOCALE/pippo/include/header.php");?>
-        <?php include ("/Users/lotti_/Desktop/CODEMASTER/1SETTIMANA/SITOLOCALE/pippo/include/content.php");?>
-
+		<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/header.php");?>
+        <?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/content.php");?>
+       
             <form class="form-horizontal" method="post">
               <h3>ACCEDI ALLA PIATTAFORMA O ACCEDI TRAMITE IL TUO PROFILO
                 LINKEDIN</h3>
@@ -31,13 +32,14 @@
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-6">Non hai un account? registrati QUI<br>
-                  PASSWORD DIMENTICATA? richiedila QUI</div>
+              
+                <div class="col-sm-6">     <label>Non hai un account? registrati </label>  <a class="registrazione" href="registrati.php" title="pagina registrazione"  > <span style= "color:#55c4b1 "> QUI </span></a><br>  <p><label>PASWORD DIMENTICATA? richiedila</label>  <a class="forgotpassword" href="forgotpassword.php" title="forgotpasword"  > <span style= "color:#55c4b1 "> QUI </span></a><br>
+             </div></p> </div>
+                <div class="col-sm-6">     
               </div>
             </form>
-   
-
-
             
-   </body>
+        
+              
+    </body>
 </html>

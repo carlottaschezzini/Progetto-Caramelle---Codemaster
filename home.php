@@ -1,14 +1,17 @@
+
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Home</title>
-<?php include ("/Users/lotti_/Desktop/CODEMASTER/1SETTIMANA/SITOLOCALE/pippo/include/content.php");?>
-<?php include ("/Users/lotti_/Desktop/CODEMASTER/1SETTIMANA/SITOLOCALE/pippo/include/calendar.php");?>
+<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/content.php");?>
+
 </head>
 
 <body>
-	<?php include ("/Users/lotti_/Desktop/CODEMASTER/1SETTIMANA/SITOLOCALE/pippo/include/header4.php");?>
+	<?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/header4.php");?>
+
+  
         <form class="form-horizontal">
         
           <h3>DOVE VUOI PRENOTARE?
@@ -17,10 +20,12 @@
           <br>
           
           
-            <div class="col-sm-3">
+            <div class="col-sm-3" inline-block>
               	<button type="button" class="btn btn-default">SCEGLI LUOGO</button>
             </div>
-          
+            <div class="col-sm-9"   >
+  <?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/calendar.php");?>
+   </div>
          
         </form>
         <div class="col-sm-4">

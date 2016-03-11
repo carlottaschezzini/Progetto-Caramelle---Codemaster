@@ -27,6 +27,10 @@ img {
 .red {
 	background-color:#E33513;
 }
+.blue {
+	background: rgba(85, 196, 177, 0.45);
+	
+}
 .ui-widget-content {
 	background-color: #676768;
 }
@@ -45,4 +49,17 @@ img {
 .seconda_casella {
 	margin-left:50%;
 }
+.bg {
+  color: #fff;
+  background: rgba(64, 66, 66, 0.8);
+  
+  padding-left: 10px;
+}
 
+.home-content {
+	text-align: center;
+	margin-top: 13%;
+}
+.home-content button {
+	width: 200px;
+}

@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-default" style="background-color: #55c4b1">
+<nav class="navbar navbar-default" style=" background-color: #55c4b1 ">
     <img src="img/logo_home.png">
     
     </div><!-- /.navbar-collapse -->

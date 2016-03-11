@@ -6,13 +6,8 @@
 </head>
 
 <body>
-<link rel="stylesheet" type="text/css" href="../css/jquery.css">
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
-  </script>
+
+ <img src="img/calendario.png" style="max-width: 500% , margin-top: 0% ">
+ 
 </body>
 </html>

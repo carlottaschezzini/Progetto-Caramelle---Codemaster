@@ -8,7 +8,7 @@
 <body>
 
 
-<nav class="navbar navbar-default red">
+<nav class="navbar navbar-default red" style="opacity: 70%">
     <img src="img/logo_home.png">
     
     </div><!-- /.navbar-collapse -->
