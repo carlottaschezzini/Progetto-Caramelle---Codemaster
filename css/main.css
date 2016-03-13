@@ -162,3 +162,27 @@ img {
     border-radius: 12px;
     margin-left: 15px;
 }
+
+
+
+.errorpage{
+   background-image: url("../img/background404.png"); 
+   min-height: 700px;
+}
+
+
+.tag { 
+  position: absolute; 
+  height: 80px;
+  top: 300px; 
+  left: 0; 
+  width: 100%; 
+  background: rgba(85, 196, 177, 0.85);
+  font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
