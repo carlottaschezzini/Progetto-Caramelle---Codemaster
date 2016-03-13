@@ -24,7 +24,7 @@
               	<button type="button" class="btn btn-default">SCEGLI LUOGO</button>
             </div>
             <div class="col-sm-9"   >
-  <?php include ("/users/nicopunzi/Desktop/Codemaster/Sitolocale/pippo/include/calendar.php");?>
+  <?php include ("include/calendar.php");?>
    </div>
          
         </form>
