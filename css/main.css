@@ -52,13 +52,12 @@ img {
 .bg {
   color: #fff;
   background: rgba(64, 66, 66, 0.8);
-  
   padding-left: 10px;
 }
 
 .home-content {
 	text-align: center;
-	margin-top: 13%;
+	margin-top: 6%;
 }
 .home-content button {
 	width: 200px;
@@ -156,15 +155,52 @@ img {
 	float: left;
 }
 .bluecerca {
-	background: rgba(85, 196, 177, 0.45);
+	background: rgba(190,189,189,1.00);
 	width: 60%;
 	height: 400px;
     border-radius: 12px;
     margin-left: 15px;
 }
+.thead {
+	background-color:#7F0B0D;
+}
+.col-md-5 {
+    margin: 0 auto;
+    float: inherit;
+}
+.form_orario{
+    width: 60%;
+    margin: 8% auto;
+}
+.button_orario {
+	float:right;
+	margin-right:10%;
+}
+table.tabella_orario {
+	
+	width:100%;
+  border-collapse: collapse;
+}
 
 
-
+tr.tr_orario{
+	padding:0;
+	background-color: white;
+	border: 1px solid transparent;
+    border-radius: 4px;
+}
+td, th {
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+h4 {
+	margin-bottom:5%;
+}
+.button_orario1 {
+    float: right;
+    margin-top: 2%;
+}
 .errorpage{
    background-image: url("../img/background404.png"); 
    min-height: 700px;
@@ -186,3 +222,54 @@ img {
 span {
   display: inline-block;
   vertical-align: middle;
+}
+.utente {
+	float:right;
+	margin-right:4%;
+	margin-top:6%;
+}
+		
+	#external-events {
+		float: left;
+		width: 150px;
+		padding: 0 10px;
+		text-align: left;
+		}
+		
+	#external-events h4 {
+		font-size: 16px;
+		margin-top: 0;
+		padding-top: 1em;
+		}
+		
+	.external-event { /* try to mimick the look of a real event */
+		margin: 10px 0;
+		padding: 2px 4px;
+		background: #3366CC;
+		color: #fff;
+		font-size: .85em;
+		cursor: pointer;
+		}
+		
+	#external-events p {
+		margin: 1.5em 0;
+		font-size: 11px;
+		color: #666;
+		}
+		
+	#external-events p input {
+		margin: 0;
+		vertical-align: middle;
+		}
+
+	#calendar {
+/* 		float: right; */
+        margin: 0 auto;
+		background-color: #FFFFFF;
+		  border-radius: 6px;
+        box-shadow: 0 1px 2px #C3C3C3;
+		}
+		.fc-state-default {
+    border-color: #ff3b30;
+    color: #ff3b30;
+}

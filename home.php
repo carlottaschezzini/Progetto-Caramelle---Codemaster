@@ -1,38 +1,27 @@
-
-<!doctype html>
+<!DOCTYPE html>
+<html lang="it">
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Home</title>
-<?php include ("include/content.php");?>
+    <head>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-</head>
-
-<body>
-	<?php include ("include/header1.php");?>
-
-  
-        <form class="form-horizontal">
-        
-          <h3>DOVE VUOI PRENOTARE?
-            </h3>
-          <br>
-          <br>
-          
-          
-            <div class="col-sm-3" inline-block>
-              	<button type="button" class="btn btn-default">SCEGLI LUOGO</button>
+        <?php include ("include/content_calendario.php");?>
+		<?php include ("include/content.php");?>
+        <?php include ("include/calendar_js.php");?>
+    </head>
+    <body>
+		<?php include ("include/header1.php");?>
+        <div class="col-md-12">
+          <div class="col-sm-3">
+            <h3>DOVE VUOI PRENOTARE? </h3>
+            <br>
+            <br>
+            <button type="button" class="btn btn-default">SCEGLI LUOGO</button>
+          </div>
+          <div class="col-md-6">
+            <div id='wrap'>
+              <div id='calendar'></div>
             </div>
-            <div class="col-sm-9"   >
-  <?php include ("include/calendar.php");?>
-   </div>
-         
-        </form>
-        <div class="col-sm-4">
-        <div id="datepicker"></div>
+          </div>
         </div>
-        
-        
-
-</body>
+    </body>
 </html>

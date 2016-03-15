@@ -7,15 +7,16 @@
     </head>
 
 	<body>
-		<?php include ("include/header1.php");?>
+		<?php include ("include/header2.php");?>
         	<?php include ("include/content.php");?>
 
        <div class="col-md-12">
        <div class="col-md-3 cincin">
        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+       <h4>CERCA EVENTI IN PROGRAMMA</h4>
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading4">
-      <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">SELEZIONA SEDE</a></h4>
+      <h5 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">SELEZIONA SEDE</a></h5>
     </div>
     <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
       <div class="panel-body">
@@ -33,7 +34,7 @@
   </div>
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">SELEZIONA MESE</a></h4>
+      <h5 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">SELEZIONA DATA</a></h5>
     </div>
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
@@ -42,7 +43,7 @@
             <div class="col-sm-10">
              
           <div class="form-group">
-            <div class="col-sm-10">
+            <div class="col-sm-12">
               <input type="mese" class="form-control" id="mese" name="mese" placeholder=" inserisci mese">
             </div>
           </div>

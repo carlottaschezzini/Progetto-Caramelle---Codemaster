@@ -14,7 +14,7 @@
         
        
             <form class="form-horizontal" method="post">
-              <h3>ACCEDI ALLA PIATTAFORMA TRAMITE LOGIN O ACCEDI TRAMITE IL TUO PROFILO
+              <h3>ACCEDI ALLA PIATTAFORMA O ACCEDI TRAMITE IL TUO PROFILO
                 LINKEDIN</h3>
               <br>
               <br>
@@ -27,19 +27,15 @@
         <div class="col-md-6" style="margin-bottom: 3.7%;">
             <input type="text" class="form-replace" id="nome" name="nome" placeholder="Nome" required  >
           </br>
-          <input type="text" class="form-replace" id="cognome" name="cognome" placeholder="Cognome" required>
-        </br>
-        <input type="text" class="form-replace" id="email" name="email" placeholder="Email">
-         </br>
-     <button type="submit" class="btn btn-default" name="azione" value="inserimento">Accedi</button>
-      
+         
+        <input type="password" class="form-replace" id="password" name="password" placeholder="password">
+        
       </div>
 
       <div class="col-md-6">
           <button type="button" class="btn1 btn-primary">collegati con LINKEDIN</button>
       </br>
    <button type="button" class="btn2 btn-primary">ACCESSO AMMINISTRATORE</button>
-
       </div>
            </div>
            
