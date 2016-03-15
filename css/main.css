@@ -269,7 +269,28 @@ span {
 		  border-radius: 6px;
         box-shadow: 0 1px 2px #C3C3C3;
 		}
-		.fc-state-default {
+		fc-state-default {
     border-color: #ff3b30;
     color: #ff3b30;
+}
+.fc-toolbar {
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 15px 10px 0px;
+}
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+    z-index: 4;
+    margin: 0 0 0 -1px;
+    min-width: 67px;
+    text-align: center;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+@font-face {
+   font-family: 'Raleway', sans-serif;
+}
+html .fc, .fc table {
+    font-size: 1em;
+font-family: 'Raleway', sans-serif;
+	font-weight: thin;
 }

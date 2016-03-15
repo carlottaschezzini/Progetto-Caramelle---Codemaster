@@ -18,7 +18,6 @@
 			selectable: true,
 			minTime: '09:00:00',
 			maxTime: '20:00:00',
-			theme: true,
 			select: function(start, end, allDay) {
 				var title = prompt('Event Title:');
 				if (title) {

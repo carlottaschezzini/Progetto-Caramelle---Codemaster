@@ -3,7 +3,6 @@
 <html>
     <head>
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
         <?php include ("include/content_calendario.php");?>
 		<?php include ("include/content.php");?>
         <?php include ("include/calendar_js.php");?>
