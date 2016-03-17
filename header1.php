@@ -1,27 +1,30 @@
+<nav class="navbar navbar-default blue">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-top: 24px; margin-right: 98px;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+ <a href="area_utenti.php"><img  src="img/logo_home.png"></a>
+    </div>
 
-<header class="clearfix blue">
-
-    <div class="container clearfix">
-            <div class="header-left">
-             <a href="area_utenti.php"><img  style=" margin-left: 1%;
-    margin-top: 1%;"src="img/logo_home.png"></a>
-            </div>
-            <div class="header-right">
-                <label for="open">
-                    <span class="hidden-desktop"></span>
-                </label>
-                <input type="checkbox" name="" id="open">
-                <nav style="padding-top: 6%;">
-   
-                     <a href="home.php fontstyle">PRENOTA UN'AULA</a>
-                        <a href="calendario_eventi.php">CALENDARIO EVENTI</a>
-                      <a href="calendario_eventi.php">LE MIE PRENOTAZIONI</a>
-   
-  </div>
-                </nav>
-
-                            </div>
-        </div>
-    </header>
-    </br>
-    </br>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+    
+        
+      </form>
+      <ul class="nav navbar-nav navbar-right" style="margin-top: 17px;
+    margin-right: 98px;">
+        <li> <button type="button" class="bnth  blue"><a href="home.php fontstyle">PRENOTA UN'AULA</a></li></button>
+        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php">CALENDARIO EVENTI</a></li></button>
+        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php">LE MIE PRENOTAZIONI</a></button>
+      
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
