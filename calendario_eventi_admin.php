@@ -3,7 +3,7 @@
     <head>
     	<meta charset="UTF-8">
         <title>Index</title>
-     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
 
 	<body>
@@ -26,8 +26,7 @@
               <input type="nome" class="form-control" id="nome" name="nome" placeholder="inserisci sede">
             </div>
           </div>
-          
-           
+           <button type="button" class="btn4 btn-primary red">INSERISCI</button>
         </form>
       </div>
     </div>
