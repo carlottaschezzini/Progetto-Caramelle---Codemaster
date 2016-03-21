@@ -14,13 +14,28 @@
             <h3>DOVE VUOI PRENOTARE? </h3>
             <br>
             <br>
-            <button type="button" class="btn btn-default">SCEGLI LUOGO</button>
+           <div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      SCEGLI LUOGO
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">MILANO</a></li>
+      <li><a href="#">AVELLINO</a></li>
+      <li><a href="#">FIRENZE</a></li>
+    </ul>
+  </div>
+           
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 calendario_down">
             <div id='wrap'>
               <div id='calendar'></div>
             </div>
           </div>
         </div>
+        <footer class="footer"></footer>
+     
     </body>
+    <!-- JavaScript Aggiornato minimale e compilato -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </html>

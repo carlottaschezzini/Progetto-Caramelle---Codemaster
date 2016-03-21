@@ -11,7 +11,7 @@
 <body>
 	<?php include ("include/header1.php");?>
 <div class="col-md-12">
-  <div class="btn btn-default button_orario"><a href="home.php">CAMBIA DATA</a></div>
+  <div><a href="home.php" class="btn btn-default button_orario1 red">CAMBIA DATA</a></div>
   </div>
         <form class="form-horizontal form_orario">
         
@@ -39,7 +39,7 @@
 
 
 </table>
-<div class="btn btn-default button_orario1 red">PRENOTA</div>
+<div> <a href="conferma_prenotazione.php" class="btn btn-default button_orario1 red">PRENOTA</a></div>
 
 </div>  
           
@@ -47,6 +47,6 @@
           
           
         
-<footer></footer>
+<footer class="footer"></footer>
 </body>
 </html>

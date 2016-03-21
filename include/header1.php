@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
- <a href="area_utenti.php"><img  src="img/logo_home.png"></a>
+ <a href="home.php"><img  src="img/logo_home.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,9 +19,8 @@
       </form>
       <ul class="nav navbar-nav navbar-right" style="margin-top: 17px;
     margin-right: 98px;">
-        <li> <button type="button" class="bnth  blue"><a href="home.php fontstyle">PRENOTA UN'AULA</a></li></button>
-        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php">CALENDARIO EVENTI</a></li></button>
-        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php">LE MIE PRENOTAZIONI</a></button>
+        <li> <button type="button" class="bnth  blue"><a href="home.php" id="clicca">PRENOTA UN'AULA</a></li></button>
+        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php" id="clicca">CALENDARIO EVENTI</a></li></button>
       
         </li>
       </ul>

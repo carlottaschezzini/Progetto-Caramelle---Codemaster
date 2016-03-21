@@ -20,7 +20,7 @@ color: white;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
- <a href="area_utenti.php"><img  src="img/logo_home.png"></a>
+ <a href="calendario_eventi_admin.php"><img  src="img/logo_home.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,9 +31,9 @@ color: white;
       </form>
       <ul class="nav navbar-nav navbar-right" style="margin-top: 17px;
     margin-right: 98px;">
-        <li> <button type="button" class="bnth  blue"><a href="home.php fontstyle"  id="clicca">PRENOTA UN'AULA</a></li></button>
-        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php"  id="clicca">CALENDARIO EVENTI</a></li></button>
-        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php"  id="clicca">LE MIE PRENOTAZIONI</a></button>
+        <li> <button type="button" class="bnth  blue"><a href="inserisci_sedi_admin.php"  id="clicca">INSERISCI SEDI O AULE</a></li></button>
+        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php"  id="clicca">CANCELLA EVENTO</a></li></button>
+        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php"  id="clicca">REPORT</a></button>
       
         </li>
       </ul>
