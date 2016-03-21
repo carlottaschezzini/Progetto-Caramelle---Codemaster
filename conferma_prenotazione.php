@@ -17,7 +17,7 @@
     ORE 15:00 - 1 APRILE 2016</small></h4>
 </div>
 <div class="col-md-7 cincin">
-  <h3>CHI PARTECIPA CON TE AL MEETING?<br>
+  <h3>
     INSERISCI NOME E COGNOME DEI PARTECIPANTI</h3>
   <div class="col-md-8 padding_null">
     <form>

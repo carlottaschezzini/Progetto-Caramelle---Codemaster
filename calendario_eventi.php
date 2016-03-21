@@ -64,13 +64,13 @@
     <tr>
       <td><small>SEDE MILANO</small></td>
       <td><small>AULA XXX</small></td>
-      <td data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7"><small>ADDIO AL CELIBATO</small></td>
+      <td data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7"><small>ADDIO AL CELIBATO - 07/04/2016</small></td>
     </tr>
     </div>
   
   
     <td colspan="6" class="hiddenRow"><div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
-        <div class="panel-body">ciao</div>
+        <div class="panel-body"><H3><small>ANTONIO<BR>NICOLA<BR>CARLOTTA</small></H3></div>
       </div></td>
       </div>
       </div>

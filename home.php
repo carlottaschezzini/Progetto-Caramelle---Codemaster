@@ -33,7 +33,7 @@
             </div>
           </div>
         </div>
-        <footer class="footer"></footer>
+       
      
     </body>
     <!-- JavaScript Aggiornato minimale e compilato -->

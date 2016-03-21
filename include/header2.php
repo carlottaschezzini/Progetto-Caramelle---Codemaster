@@ -32,8 +32,8 @@ color: white;
       <ul class="nav navbar-nav navbar-right" style="margin-top: 17px;
     margin-right: 98px;">
         <li> <button type="button" class="bnth  blue"><a href="inserisci_sedi_admin.php"  id="clicca">INSERISCI SEDI O AULE</a></li></button>
-        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php"  id="clicca">CANCELLA EVENTO</a></li></button>
-        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi.php"  id="clicca">REPORT</a></button>
+        <li> <button type="button" class="bnth  blue"><a href="calendario_eventi_admin.php"  id="clicca">CANCELLA EVENTO</a></li></button>
+        <li> <button type="button" class="bnth  blue"><a href=""  id="clicca">REPORT</a></button>
       
         </li>
       </ul>

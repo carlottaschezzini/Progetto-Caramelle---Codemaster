@@ -57,8 +57,40 @@
        
        
         </div>    </div>
-        <div class="col-md-6 cincin bluecerca">
-        </div>
+        <div class="col-md-6 margine_table">
+<h4>CLICCA SULLA X PER CANCELLARE UN EVENTO :</h4>
+<table class="table table-bordered">
+  <tbody>
+    <tr>
+      <th scope="col" class="red_table ">SEDE</th>
+      <th scope="col" class="red_table ">AULA</th>
+      <th scope="col" class="red_table ">EVENTO</th>
+      <th scope="col" class="red_table ">CANCELLA EVENTO</th>
+    </tr>
+    <tr>
+      <td><small>SEDE MILANO</small></td>
+      <td><small>AULA XXX</small></td>
+      <td data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7"><small>ADDIO AL CELIBATO - 07/04/2016</small></td>
+      <td>X</td>
+    </tr>
+    </div>
+  
+  
+    <td colspan="6" class="hiddenRow"><div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+        <div class="panel-body"><H3><small>ANTONIO<BR>NICOLA<BR>CARLOTTA</small></H3></div>
+      </div></td>
+      </div>
+      </div>
+  </tr>
+  <tr>
+    <td><small>SEDE AVELLINO</small></td>
+    <td><small>AULA XXX</small></td>
+    <td>&nbsp;</td>
+  </tr>
+    </tbody>
+  
+</table>
+</div>
         
               
     </body>
