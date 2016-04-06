@@ -18,8 +18,8 @@
      
        
        
-          <div class="panel-body">
-            <form class="form-horizontal" method="post" enctype="multipart/form-data">
+          <div >
+            <form class="form-horizontal form_report" method="post" enctype="multipart/form-data">
                 <div class="form-group">
 							<label for="data_fine" class="col-sm-2 control-label">da</label>
 							<div class="col-sm-10">
@@ -37,11 +37,11 @@
           </div>
 
    
-          <div class="panel-body">
+          <div>
              <hr>
     
      <h4>SEDE :</h4>
-            <form class="form-horizontal" method="post">
+            <form class="form-horizontal form_seleziona" method="post">
               <div class="form-group">
               <div class="col-sm-10">
               <div class="form-group">
@@ -54,7 +54,7 @@
                 </select>
               </div>
               
-              <button type="button" class="btn4 btn-primary">INSERISCI</button>
+              <button type="button" class="btn4 btn-primary">CERCA</button>
             </form>
           </div>
       
@@ -62,8 +62,8 @@
   </div>
   <hr>
   <h4>UTENTE :</h4>
-          <div class="panel-body">
-            <form class="form-horizontal" method="post">
+          <div >
+            <form class="form-horizontal form_seleziona" method="post">
               <div class="form-group">
               <div class="col-sm-10">
               <div class="form-group">
@@ -73,7 +73,7 @@
                   	<input type="text" class="form-control" id="cognome" placeholder="Cognome">
               </div>
               
-              <button type="button" class="btn4 btn-primary">INSERISCI</button>
+              <button type="button" class="btn4 btn-primary">CERCA</button>
             </form>
           </div>
       
